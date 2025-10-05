@@ -1,0 +1,12 @@
+.navigation {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.navigation a {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 1rem;
+}

@@ -1,0 +1,94 @@
+.grid {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+  transition: box-shadow 0.15s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #8a2be2;
+}
+
+.body {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.meta {
+  margin-top: 12px;
+  color: #666;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  color: #000;
+}
+
+.actions > div > a {
+  margin-left: 20px;
+}
+
+/* Error */
+
+.error {
+  padding: 12px 16px;
+  border: 1px solid #ffb3b3;
+  background: #fff2f2;
+  color: #900;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* Skeleton */
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f2f2f2 25%, #e9e9e9 37%, #f2f2f2 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.2s ease-in-out infinite;
+}
+
+.skeletonTitle,
+.skeletonLine {
+  background: rgba(255,255,255,0.7);
+  border-radius: 6px;
+}
+
+.skeletonTitle {
+  height: 24px;
+  width: 80%;
+  margin-bottom: 12px;
+}
+
+.skeletonLine {
+  height: 50px;
+  width: 100%;
+  margin: 8px 0;
+}
+
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}

@@ -39,6 +39,7 @@ export default function Home() {
               Get started by editing <code>src/pages/index.tsx</code>.
             </li>
             <li>Save and see your changes instantly.</li>
+            <li>3rd option</li>
           </ol>
 
           <div className={styles.ctas}>
@@ -115,3 +116,4 @@ export default function Home() {
     </>
   );
 }
+

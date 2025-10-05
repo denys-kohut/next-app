@@ -1,0 +1,30 @@
+.container {
+  padding: 16px 24px;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+}
+
+.navLink {
+  text-decoration: underline;
+}
+
+.spacer {
+  height: 80vh;
+}
+
+.prefetchSection {
+  border-top: 1px dashed #ccc;
+  padding-top: 16px;
+}
+
+.linkList {
+  display: grid;
+  gap: 8px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 16px 24px;
+}

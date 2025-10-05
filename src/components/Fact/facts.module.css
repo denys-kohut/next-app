@@ -1,0 +1,27 @@
+.fact {
+    max-width: 700;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    margin-top: 60px;
+}
+
+.fact * {
+    color: #000;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.hr {
+    margin: 40px 0;
+}
+
+.slugWrapper {
+    color: #888;
+    font-size: 14;
+}

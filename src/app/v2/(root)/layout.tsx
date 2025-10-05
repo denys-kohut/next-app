@@ -13,10 +13,10 @@ const geistSans = Geist({
   adjustFontFallback: true,
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 // const local = localFont({
 //   src: [
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head/>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable}`}>
         <Layout>
           {children}
         </Layout>

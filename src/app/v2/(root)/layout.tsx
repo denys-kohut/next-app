@@ -18,14 +18,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const local = localFont({
-  src: [
-    { path: './fonts/my-local-font.woff2', style: 'normal', weight: '100 900'}
-  ],
-  display: 'swap',
-  fallback: ['Roboto'],
-  preload: true,
-})
+// const local = localFont({
+//   src: [
+//     { path: './fonts/my-local-font.woff2', style: 'normal', weight: '100 900'}
+//   ],
+//   display: 'swap',
+//   fallback: ['Roboto'],
+//   preload: true,
+// })
 
 export const metadata: Metadata = {
   title: "Create Next App",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <h1>About this project</h1>
+      <h1>About this project (QA version)</h1>
       <div style={{
         width: "100%",
         height: "300px",
